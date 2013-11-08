@@ -1,0 +1,770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"js",
+				"jshint"
+			],
+			[
+				"getA",
+				"getAncestorsChain"
+			],
+			[
+				"an",
+				"ancestors"
+			],
+			[
+				"iden",
+				"identifierCreator"
+			],
+			[
+				"if",
+				"ife	if … else"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"javasc	",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"code",
+				"CI Codeintel Helper: Create IDE helper"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jshin",
+				"JSHint"
+			],
+			[
+				"github",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"githu",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"gith",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"codeint",
+				"Snippet: Backbone requirejs Module definition"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
+		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
+		"/C/Users/ilya/Documents/git/criticJS/lib/browser.js",
+		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
+		"/C/Users/ilya/Documents/git/ArteJS/Demo/SimpleToolbarDemo.html",
+		"/C/Users/ilya/Documents/git/criticJS/bin/criticJS.js",
+		"/C/Users/ilya/Documents/git/criticJS/criticJS.sublime-project",
+		"/C/Users/Ilya/Documents/git/criticJS/criticJS.json",
+		"/C/Users/Ilya/Documents/git/criticJS/bin/criticJS.js",
+		"/C/Users/ilya/Documents/git/criticJS/test/criticJS.json",
+		"/C/Users/ilya/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/C/Users/ilya/Documents/git/eslint/bin/eslint.js",
+		"/C/Users/ilya/Documents/git/criticJS/package.json",
+		"/C/Users/ilya/Documents/git/criticJS/.gitignore",
+		"/C/Users/ilya/Documents/git/criticJS/static/inject.js",
+		"/C/Users/ilya/Documents/git/criticJS/node_modules/http-proxy/lib/node-http-proxy.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-logic-outside-tests.js",
+		"/C/Users/Ilya/Documents/git/criticJS/static/inject.js",
+		"/C/Users/Ilya/Documents/git/criticJS/static/socket.io.js",
+		"/C/Users/Ilya/Documents/git/launchpad/examples/local.js",
+		"/C/Users/Ilya/Documents/git/criticJS/package.json",
+		"/C/Users/Ilya/Documents/git/criticJS/node_modules/harmon/index.js",
+		"/C/Users/Ilya/Documents/git/criticJS/node_modules/node-inject/index.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/README.md",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-logic-outside-tests.ms",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-logic-outside-tests.js",
+		"/C/Users/Ilya/Documents/git/eslint/conf/eslint.json",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-conditional-expression.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-conditional-expression.md",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-logic-outside-tests.md",
+		"/C/Users/Ilya/Documents/Work/Git/website/src/PPDA.Website.Static/JavaScript/Areas/Checkout/Test/billingsvc.test.js",
+		"/C/Users/Ilya/Documents/Work/Git/website/src/PPDA.Website.Static/JavaScript/Test/main-test.js",
+		"/C/Users/Ilya/Documents/test.html",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/cli.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/eslint.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-redeclare.md",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-conditional-expression.js",
+		"/C/Users/Ilya/Documents/git/eslint/Jakefile.js",
+		"//devivolodin1.vistaprint.net/d$/git/ppda/website/src/PPDA.Website/Areas/Product/Controllers/DesignStorageController.cs",
+		"/C/Users/Ilya/Documents/git/eslint/lib/api.js",
+		"/C/Users/Ilya/Documents/git/istanbul/lib/report/html.js",
+		"/C/Users/Ilya/Documents/git/istanbul/lib/report/templates/head.txt",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/max-len.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/eslint.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-use-before-define.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-mixed-requires.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/semi.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/unnecessary-strict.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/fixtures/globals-browser.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/cli.js",
+		"/C/Users/Ilya/Documents/git/eslint/bin/eslint.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-func-assign.md",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-unused-vars.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-unused-vars.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rule-context.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-func-assign.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-func-assign.js",
+		"/C/Users/Ilya/Documents/git/eslint/package.json",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-multi-str.js",
+		"/C/temp/Iceland 2013/jpeg/DSC00948.JPG",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-undef.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-underscore-dangle.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-empty-class.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-empty.md",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-empty.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-underscore-dangle.js",
+		"/C/Users/Ilya/AppData/Local/Temp/Adobe/Edge Animate/MotionPaths/samples/motion_paths_start/publish/web/motion_paths_start_edge.js",
+		"/C/Users/Ilya/AppData/Local/Temp/Adobe/Edge Animate/MotionPaths/samples/motion_paths_start/publish/web/motion_paths_start.html",
+		"/C/Users/Ilya/Documents/git/eslint/tests/eslint.json",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-undef.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-redeclare.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-use-before-define.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-redeclare.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-shadow.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-fallthrough.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-fallthrough.js",
+		"/C/Users/Ilya/Documents/git/eslint/.git/config",
+		"/C/Users/Ilya/.gitconfig",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/guard-for-in.md",
+		"/C/Users/Ilya/Documents/git/eslint/CHANGELOG.md",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-use-before-define.md",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/dot-notation.js",
+		"/C/Users/Ilya/Documents/Work/Git/website/nuget-packages/vistaprint-devkit-dotnet.0.7.120/env/puppet-manifests/devkit-dotnet.pp",
+		"/C/Users/Ilya/Documents/Work/Git/website/env.cmd",
+		"/C/Users/Ilya/Documents/Work/Git/website/nuget-packages/vistaprint-devkit-dotnet.0.7.120/env/bootstrap_dev_environment.bat",
+		"/C/Users/Ilya/Documents/Work/Git/website/nuget-packages/vistaprint-devkit-dotnet.0.7.120/env/ensure_puppet_is_installed.bat",
+		"/C/Users/Ilya/Documents/Work/Git/website/nuget-packages/vistaprint-devkit-dotnet.0.7.120/env/vprompt.cmd",
+		"/C/Users/Ilya/Documents/Work/Git/website/nuget-packages/vistaprint-ppda-devkit.0.1.13/env/vprompt.cmd",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/break-case.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/break-case.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/break-case.md",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-bitwise.js",
+		"/C/Users/Ilya/Documents/git/perfnode/package.json",
+		"/C/Users/Ilya/Documents/git/jshint/src/messages.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-shadow.js",
+		"/C/Users/Ilya/Documents/git/jshint/tests/regression/thirdparty.js",
+		"/C/Users/Ilya/Documents/git/eslint/jquery.txt",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-eq-null.js",
+		"/C/Users/Ilya/Documents/git/jshint/tests/regression/libs/jquery-1.7.js",
+		"/C/Users/Ilya/Documents/git/jshint/tests/helpers/testhelper.js",
+		"/C/Users/Ilya/Documents/git/jshint/package.json",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-shadow.md",
+		"/C/Users/Ilya/Documents/git/eslint/scripts/test.sh",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-proto.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-proto.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-proto.md",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-debugger.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-script-url.md",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-script-url.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-script-url.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-wrap-func.js",
+		"/C/Users/Ilya/Documents/git/jshint/tests/unit/fixtures/scripturl.js",
+		"/C/Users/Ilya/Documents/git/jshint/tests/unit/core.js",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/none-iffe-wrapping.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/none-iffe-wrapping.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/none-iffe-wrapping.md",
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-wrap-func.js",
+		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ilya/Documents/git/eslint.sublime-project",
+		"/C/Users/Ilya/Documents/git/eslint/conf/environments.json",
+		"/C/Users/Ilya/Documents/git/eslint/tests/fixtures/passing.js",
+		"/C/Users/Ilya/Documents/git/eslint/tests/fixtures/missing-semicolon.js",
+		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-unused-vars.md",
+		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-caller.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Ilya\\Documents\\git\\eslint\\tests",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"callback",
+			"http",
+			"join",
+			"istan",
+			"api",
+			"some",
+			"all",
+			"some",
+			"getBuiltinModules",
+			"cwd",
+			"_",
+			"messages",
+			"fullFileList",
+			"results",
+			"jshint",
+			"arguments",
+			"Object.hasOwnProperty.call(environments, name)",
+			"Object.hasOwnProperty.call(environments, name))",
+			"parseBoolean(value)",
+			"if (parseBoolean(value) && Object.hasOwnProperty.call(environments, name)",
+			"if (parseBoolean(value) && Object.hasOwnProperty.call(environments, name))",
+			"puppet",
+			".,",
+			"\"",
+			"(\\s\\s)+",
+			".,(\\w)*",
+			"(\\s\\s)+\\n",
+			"(\\s\\s)",
+			"(\\s)+",
+			"\"",
+			"\\+.*\\n",
+			"W[0-9]*: ",
+			"FunctionDeclaration",
+			"Program",
+			"    },",
+			"Literal",
+			"2818",
+			"2662",
+			"no-unused-vars",
+			"1044",
+			"551",
+			"<testcase name=\"org.eslint.no-underscore-dangle\" time=\"0\">",
+			"<testcase name=\"org.eslint.quotes\" time=\"0\">",
+			"<testcase name=\"org.eslint.no-undef\" time=\"0\">",
+			"\\n",
+			"<testcase name=\"org.eslint.curly\" time=\"0\">",
+			"<testcase name=\"org.eslint.no-underscore-dangle\" time=\"0\">",
+			"<testcase name=\"org.eslint.quotes\" time=\"0\">",
+			"<testcase name=\"org.eslint.no-undef\" time=\"0\">",
+			"\\n",
+			"|\n",
+			"none",
+			"current",
+			"|\n",
+			"t|1",
+			"s|1",
+			".\\|.",
+			"l|1",
+			"|",
+			"variable",
+			"checkForMaxStatements",
+			"match",
+			"currentTokens",
+			"fixtures",
+			"currentTokens",
+			"ancestor",
+			"getScope()",
+			"escope",
+			"getAncestors",
+			"ruleId",
+			"rules",
+			"verify",
+			"api",
+			"api.emit",
+			"controller",
+			"estraverse",
+			"\"",
+			"                                ",
+			"\",",
+			"caller",
+			"callee",
+			"collee",
+			"console",
+			"case",
+			"switch",
+			"unreachable",
+			"http://jslinterrors.com/​",
+			"console",
+			"bitwise",
+			"alert",
+			"[ ] ",
+			"\\)\\|( *)",
+			")|",
+			"  ",
+			")|",
+			"]|",
+			"(http",
+			")|",
+			"|(",
+			"  - ",
+			"l  - ",
+			"http://h",
+			"- [",
+			"- ",
+			"[x]",
+			"  - …​ ",
+			"</a>​",
+			"/​\">​",
+			"\">​",
+			"<a href=\"",
+			"href=​\"",
+			"\n,",
+			"getSource",
+			"verify",
+			"emit",
+			"esprima"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			" ",
+			"",
+			"\\n",
+			"",
+			"`",
+			"",
+			")|",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"project": "criticJS.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"max-len",
+				"lib/rules/max-len.js"
+			],
+			[
+				"rules.js",
+				"lib/rules.js"
+			],
+			[
+				"unn",
+				"lib/rules/unnecessary-strict.js"
+			],
+			[
+				"semi",
+				"lib/rules/semi.js"
+			],
+			[
+				"no-use-before-deine",
+				"lib/rules/no-use-before-define.js"
+			],
+			[
+				"no-mixi",
+				"lib/rules/no-mixed-requires.js"
+			],
+			[
+				"no-use",
+				"lib/rules/no-use-before-define.js"
+			],
+			[
+				"eslint",
+				"lib/eslint.js"
+			],
+			[
+				"no-unused",
+				"lib/rules/no-unused-vars.js"
+			],
+			[
+				"rule-context",
+				"lib/rule-context.js"
+			],
+			[
+				"no-func-ass",
+				"tests/lib/rules/no-func-assign.js"
+			],
+			[
+				"eslint.js",
+				"lib/eslint.js"
+			],
+			[
+				"no-multi",
+				"tests/lib/rules/no-multi-str.js"
+			],
+			[
+				"cli",
+				"lib/cli.js"
+			],
+			[
+				"no-undef",
+				"lib/rules/no-undef.js"
+			],
+			[
+				"no-mixed-re",
+				"lib/rules/no-mixed-requires.js"
+			],
+			[
+				"empty-class",
+				"lib/rules/no-empty-class.js"
+			],
+			[
+				"no-empt",
+				"docs/rules/no-empty.md"
+			],
+			[
+				"no-empty",
+				"lib/rules/no-empty.js"
+			],
+			[
+				"no-undersc",
+				"tests/lib/rules/no-underscore-dangle.js"
+			],
+			[
+				"no-unders",
+				"tests/lib/rules/no-underscore-dangle.js"
+			],
+			[
+				"no-under",
+				"lib/rules/no-underscore-dangle.js"
+			],
+			[
+				"no-unde",
+				"lib/rules/no-undef.js"
+			],
+			[
+				"no-rede",
+				"lib/rules/no-redeclare.js"
+			],
+			[
+				"no-use-before",
+				"lib/rules/no-use-before-define.js"
+			],
+			[
+				"no-use-before-def",
+				"lib/rules/no-use-before-define.js"
+			],
+			[
+				"context",
+				"lib/rule-context.js"
+			],
+			[
+				"no-use-before-define",
+				"tests/lib/rules/no-use-before-define.js"
+			],
+			[
+				"no-use-bef",
+				"lib/rules/no-use-before-define.js"
+			],
+			[
+				"no-shadow",
+				"tests/lib/rules/no-shadow.js"
+			],
+			[
+				"no-fallthroug",
+				"lib/rules/no-fallthrough.js"
+			],
+			[
+				"gui",
+				"docs/rules/guard-for-in.md"
+			],
+			[
+				"break-cas",
+				"lib/rules/break-case.js"
+			],
+			[
+				"no-unused-vars",
+				"tests/lib/rules/no-unused-vars.js"
+			],
+			[
+				"no-un",
+				"lib/rules/no-unused-vars.js"
+			],
+			[
+				"no-eq-null",
+				"tests/lib/rules/no-eq-null.js"
+			],
+			[
+				"jake",
+				"Jakefile.js"
+			],
+			[
+				"no-script",
+				"docs/rules/no-script-url.md"
+			],
+			[
+				"eslint.json",
+				"conf/eslint.json"
+			],
+			[
+				"no-caller",
+				"tests/lib/rules/no-caller.js"
+			],
+			[
+				"no-self",
+				"lib/rules/no-self-compare.js"
+			],
+			[
+				"eslint.jso",
+				"conf/eslint.json"
+			],
+			[
+				"no-new.md",
+				"docs/rules/no-new-func.md"
+			],
+			[
+				"jakefile",
+				"Jakefile.js"
+			],
+			[
+				"readme",
+				"docs/rules/README.md"
+			],
+			[
+				"eslint.",
+				"conf/eslint.json"
+			],
+			[
+				"no-new",
+				"tests/lib/rules/no-new.js"
+			],
+			[
+				"readme.md",
+				"docs/rules/README.md"
+			],
+			[
+				"eslin",
+				"conf/eslint.json"
+			],
+			[
+				"wrap",
+				"tests/lib/rules/wrap-iife.js"
+			],
+			[
+				"no",
+				"lib/rules/no-octal.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

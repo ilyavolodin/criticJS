@@ -1,0 +1,43 @@
+{
+  "name": "criticJS",
+  "description": "UI test runner",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ilyavolodin/criticJS",
+  "author": {
+    "name": "Ilya Volodin",
+    "email": "ivolodin@vistaprint.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ilyavolodin/criticJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilyavolodin/criticJS/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ilyavolodin/criticJS/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "bin/criticJS",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "launchpad": "~0.2.1",
+    "socket.io": "~0.9.16",
+    "optimist": "~0.6.0",
+    "lodash": "~2.2.1",
+    "q": "~0.9.7"
+  }
+}

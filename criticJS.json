@@ -1,0 +1,14 @@
+{
+	"server": {
+		"port": 8001,
+		"timeout": 10000
+	},
+	"browser": {
+		"registration" : { "username" : "user", "password": "password" },
+		"browsers": [
+			{ "name": "chrome", "type": "local" },
+			{ "name": "ie", "type": "browserstack" }
+		],
+		"siteLocation" : "http://www.google.com"
+	}
+}
