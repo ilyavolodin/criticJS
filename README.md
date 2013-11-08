@@ -5,11 +5,6 @@ UI test runner
 ## Getting Started
 Install the module with: `npm install criticJS`
 
-```javascript
-var criticJS = require('criticJS');
-criticJS.awesome(); // "awesome"
-```
-
 ## Documentation
 _(Coming soon)_
 
