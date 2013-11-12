@@ -31,9 +31,13 @@
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 196.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"javasc	",
 				"Set Syntax: JavaScript"
@@ -192,12 +196,22 @@
 	},
 	"file_history":
 	[
-		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
+		"/C/Users/ilya/Documents/git/ArteJS/Gruntfile.js",
+		"/C/Users/ilya/Documents/git/ArteJS/karma.conf.js",
+		"/C/Users/ilya/Documents/git/ArteJS/Editor/unittests/lib/jquery-extensions/jQueryDomTraversal.UnitTests.js",
+		"/C/Users/ilya/Documents/work/website/tools/ppda-client-build/Gruntfile.js",
 		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
+		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
 		"/C/Users/ilya/Documents/git/criticJS/lib/browser.js",
-		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
-		"/C/Users/ilya/Documents/git/ArteJS/Demo/SimpleToolbarDemo.html",
+		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
 		"/C/Users/ilya/Documents/git/criticJS/bin/criticJS.js",
+		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
+		"/C/Users/ilya/Documents/git/criticJS/node_modules/socket.io/lib/socket.io.js",
+		"/C/Users/ilya/Documents/git/criticJS/client/index.html",
+		"/C/Users/ilya/Documents/work/website/src/PPDA.Website/PPDA.Website.csproj",
+		"/C/Users/ilya/Documents/git/eslint/conf/environments.json",
+		"/C/Users/ilya/Documents/git/criticJS/node_modules/socket.io/lib/util.js",
+		"/C/Users/ilya/Documents/git/ArteJS/Demo/SimpleToolbarDemo.html",
 		"/C/Users/ilya/Documents/git/criticJS/criticJS.sublime-project",
 		"/C/Users/Ilya/Documents/git/criticJS/criticJS.json",
 		"/C/Users/Ilya/Documents/git/criticJS/bin/criticJS.js",
@@ -309,17 +323,7 @@
 		"/C/Users/Ilya/Documents/git/eslint/lib/rules/none-iffe-wrapping.js",
 		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/none-iffe-wrapping.js",
 		"/C/Users/Ilya/Documents/git/eslint/docs/rules/none-iffe-wrapping.md",
-		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-wrap-func.js",
-		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
-		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Ilya/Documents/git/eslint.sublime-project",
-		"/C/Users/Ilya/Documents/git/eslint/conf/environments.json",
-		"/C/Users/Ilya/Documents/git/eslint/tests/fixtures/passing.js",
-		"/C/Users/Ilya/Documents/git/eslint/tests/fixtures/missing-semicolon.js",
-		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-unused-vars.md",
-		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
-		"/C/Users/Ilya/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
-		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-caller.js"
+		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-wrap-func.js"
 	],
 	"find":
 	{
@@ -339,6 +343,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$.Arte.constants",
 			"callback",
 			"http",
 			"join",
@@ -744,6 +749,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\ilya\\Documents\\git\\eslint.sublime-project"
+			]
 		],
 		"width": 380.0
 	},

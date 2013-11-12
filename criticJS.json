@@ -1,14 +1,18 @@
 {
 	"server": {
 		"port": 8001,
-		"timeout": 10000
+		"timeout": 40000
 	},
 	"browser": {
 		"registration" : { "username" : "user", "password": "password" },
 		"browsers": [
-			{ "name": "chrome", "type": "local" },
-			{ "name": "ie", "type": "browserstack" }
+			{ "name": "ie", "type": "local" }
 		],
-		"siteLocation" : "http://www.google.com"
+		"siteLocation" : "http://localhost:8001/"
+	},
+	"tests": {
+		"files": [
+			{ "pattern" : "test/*.js", "served": true }
+		]
 	}
 }

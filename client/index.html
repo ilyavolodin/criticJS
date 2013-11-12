@@ -1,0 +1,15 @@
+<html doctype>
+	<head>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	  var socket = io.connect('http://localhost:8001');
+	  var files = [];
+	  socket.emit('browser-info', { browser: navigator.userAgent });
+	  socket.on('testFiles', function(serverFiles) {
+	  	files = JSON.parse(serverFiles);
+	  });
+	</script>
+	</head>
+	<body>
+	</body>
+</html>
