@@ -6,7 +6,7 @@
 	"browser": {
 		"registration" : { "username" : "user", "password": "password" },
 		"browsers": [
-			{ "name": "ie", "type": "local" }
+			{ "name": "chrome", "type": "local" }
 		],
 		"siteLocation" : "http://localhost:8001/"
 	},

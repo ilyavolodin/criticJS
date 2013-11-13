@@ -7,6 +7,7 @@
 	  socket.emit('browser-info', { browser: navigator.userAgent });
 	  socket.on('testFiles', function(serverFiles) {
 	  	files = JSON.parse(serverFiles);
+	  	//once files are recieved, we should load them and execute tests
 	  });
 	</script>
 	</head>
