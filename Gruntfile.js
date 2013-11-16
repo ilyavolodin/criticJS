@@ -12,13 +12,16 @@ module.exports = function(grunt) {
         jshintrc: '.jshintrc'
       },
       gruntfile: {
-        src: 'Gruntfile.js'
+        src: 'gruntfile.js'
       },
       lib: {
         src: ['lib/**/*.js']
       },
       test: {
-        src: ['test/**/*.js']
+        src: ['test/**/*.js'],
+        options: {
+          jshintrc: 'test/.jshintrc'
+        },
       },
     },
     watch: {
@@ -43,6 +46,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'nodeunit']);
+  grunt.registerTask('default', ['jshint' /*, 'nodeunit' */]);
 
 };
