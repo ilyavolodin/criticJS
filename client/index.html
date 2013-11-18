@@ -1,16 +1,22 @@
 <html doctype>
-	<head>
-	<script src="/socket.io/socket.io.js"></script>
-	<script>
-	  var socket = io.connect('http://localhost:8001');
-	  var files = [];
-	  socket.emit('browser-info', { browser: navigator.userAgent });
-	  socket.on('testFiles', function(serverFiles) {
-	  	files = JSON.parse(serverFiles);
-	  	//once files are recieved, we should load them and execute tests
-	  });
-	</script>
-	</head>
-	<body>
-	</body>
+    <head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="/client/script/critic.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:8001');
+        var files = [];
+        socket.emit('browser-info', { browser: navigator.userAgent });
+        socket.on('testFiles', function(serverFiles) {
+          files = JSON.parse(serverFiles);
+          //once files are recieved, we should load them and execute tests
+          for (var i=0, l=files.length; i<l; i++) {
+          	critic.scriptLoader(files[i]);
+          }
+        });
+    </script>
+    </head>
+    <body>
+        <iframe id="testHarness" style="width: 100%; height: 100%;"></iframe>
+    </body>
 </html>
