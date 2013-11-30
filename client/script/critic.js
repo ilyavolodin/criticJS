@@ -1,26 +1,17 @@
 /* global document: false, socket: true, window: true, $: true */
 
-window.critic = (function() {
-    this.initialize = function() {
+window.critic = function() {
+    this.initialize = function(serverUrl) {
         this.iframe = $("#testHarness")[0];
-    };
-
-    this.scriptLoader = function(path, callback) {
-        var el = document.createElement("script"),
-            loaded = false;
-        el.onload = el.onreadystatechange = function () {
-          if ((el.readyState && el.readyState !== "complete" && el.readyState !== "loaded") || loaded) {
-              return false;
-          }
-          el.onload = el.onreadystatechange = null;
-          loaded = true;
-          if (callback) {
-              callback.call(this);
-          }
-        };
-        el.async = true;
-        el.src = path;
-        document.getElementsByTagName('head')[0].appendChild(el);
+        var socket = io.connect(serverUrl);
+        var files = [];
+        socket.emit('browser-info', { browser: navigator.userAgent });
+        socket.on('testFiles', function(serverFiles) {
+            files = JSON.parse(serverFiles);
+            for (var i=0, l=files.length; i<l; i++) {
+                $.getScript(files[i]);
+            }
+        });
     };
 
     this.loadPage = function(url, callback) {
@@ -45,7 +36,7 @@ window.critic = (function() {
         me.initialize();
     });
     return this;
-})();
+};
 
 window.assert = (function() {
     this.equals = function(var1, var2) {

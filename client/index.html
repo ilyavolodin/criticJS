@@ -1,19 +1,19 @@
-<html doctype>
+<!DOCTYPE html>
+<html>
     <head>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="/client/script/critic.js"></script>
-    <script>
-        var socket = io.connect('http://localhost:8001');
-        var files = [];
-        socket.emit('browser-info', { browser: navigator.userAgent });
-        socket.on('testFiles', function(serverFiles) {
-          files = JSON.parse(serverFiles);
-          //once files are recieved, we should load them and execute tests
-          for (var i=0, l=files.length; i<l; i++) {
-          	critic.scriptLoader(files[i]);
-          }
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.1.min.js'></script>
+    <script type='text/javascript'>
+    $("document").ready(function() {
+        var qs=function(a){if(""==a)return{};for(var b={},c=0;c<a.length;++c){var d=a[c].split("=");2==d.length&&(b[d[0]]=decodeURIComponent(d[1].replace(/\+/g," ")))}return b}(window.location.search.substr(1).split("&"));
+        var serverUrl = qs["serverUrl"],
+            socketIo = serverUrl + "/socket.io/socket.io.js",
+            criticJs = serverUrl + "/client/script/critic.js";
+
+        $.getScript(socketIo);
+        $.getScript(criticJs, function() {
+            critic(serverUrl);
         });
+    });
     </script>
     </head>
     <body>

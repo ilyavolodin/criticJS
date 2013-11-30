@@ -25,23 +25,16 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 2453,
-				"line_ending": "Windows"
-			}
-		}
-	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -127,10 +120,6 @@
 				"GitHub Flavored Markdown: Preview"
 			],
 			[
-				"javascript",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"githu",
 				"GitHub Flavored Markdown: Preview"
 			],
@@ -183,15 +172,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 464.0
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
-		]
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -204,18 +189,20 @@
 	},
 	"file_history":
 	[
-		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
-		"/C/Users/ilya/Documents/git/criticJS/lib/browser.js",
-		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
-		"/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
-		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
 		"/C/Users/ilya/Documents/git/criticJS/client/index.html",
+		"/C/Users/ilya/Documents/git/criticJS/client/script/critic.js",
+		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
+		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
+		"/C/Users/ilya/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ilya/Documents/git/criticJS/lib/browser.js",
+		"/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
+		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
+		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
 		"/C/Windows/System32/cnd.bat",
 		"/C/Users/ilya/Documents/git/ArteJS/Gruntfile.js",
 		"/C/Users/ilya/Documents/git/ArteJS/karma.conf.js",
 		"/C/Users/ilya/Documents/git/ArteJS/Editor/unittests/lib/jquery-extensions/jQueryDomTraversal.UnitTests.js",
 		"/C/Users/ilya/Documents/work/website/tools/ppda-client-build/Gruntfile.js",
-		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
 		"/C/Users/ilya/Documents/git/criticJS/bin/criticJS.js",
 		"/C/Users/ilya/Documents/git/criticJS/node_modules/socket.io/lib/socket.io.js",
 		"/C/Users/ilya/Documents/work/website/src/PPDA.Website/PPDA.Website.csproj",
@@ -329,9 +316,7 @@
 		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-script-url.js",
 		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-wrap-func.js",
 		"/C/Users/Ilya/Documents/git/jshint/tests/unit/fixtures/scripturl.js",
-		"/C/Users/Ilya/Documents/git/jshint/tests/unit/core.js",
-		"/C/Users/Ilya/Documents/git/eslint/lib/rules/none-iffe-wrapping.js",
-		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/none-iffe-wrapping.js"
+		"/C/Users/Ilya/Documents/git/jshint/tests/unit/core.js"
 	],
 	"find":
 	{
@@ -494,42 +479,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2453,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 0.0
@@ -565,7 +514,6 @@
 	{
 		"height": 100.0
 	},
-	"project": "criticJS.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -795,24 +743,10 @@
 		],
 		"width": 380.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"settings":
-	{
-	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 202.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }

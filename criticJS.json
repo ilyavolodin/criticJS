@@ -1,7 +1,7 @@
 {
 	"server": {
 		"port": 8001,
-		"timeout": 40000
+		"timeout": 400000
 	},
 	"browser": {
 		"registration" : { "username" : "user", "password": "password" },
