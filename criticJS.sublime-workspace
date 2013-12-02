@@ -189,15 +189,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/ilya/Documents/git/criticJS/client/index.html",
-		"/C/Users/ilya/Documents/git/criticJS/client/script/critic.js",
-		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
+		"/C/Users/ilya/Documents/git/criticJS/lib/runner.js",
 		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
-		"/C/Users/ilya/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ilya/Documents/git/criticJS/client/index.html",
 		"/C/Users/ilya/Documents/git/criticJS/lib/browser.js",
-		"/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
 		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
 		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
+		"/C/Users/ilya/Documents/git/criticJS/client/script/critic.js",
+		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
+		"/C/Users/ilya/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
 		"/C/Windows/System32/cnd.bat",
 		"/C/Users/ilya/Documents/git/ArteJS/Gruntfile.js",
 		"/C/Users/ilya/Documents/git/ArteJS/karma.conf.js",
@@ -315,8 +316,7 @@
 		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-script-url.js",
 		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-script-url.js",
 		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-wrap-func.js",
-		"/C/Users/Ilya/Documents/git/jshint/tests/unit/fixtures/scripturl.js",
-		"/C/Users/Ilya/Documents/git/jshint/tests/unit/core.js"
+		"/C/Users/Ilya/Documents/git/jshint/tests/unit/fixtures/scripturl.js"
 	],
 	"find":
 	{
