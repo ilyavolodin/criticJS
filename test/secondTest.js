@@ -3,7 +3,7 @@
 describe("Second test file", function() {
     describe('Loading npmjs.org page', function() {
         it('Should load npmjs.org page', function(done) {
-            critic.loadPage("http://npmjs.org/", function(url) {
+            critic.loadPage("http://npmjs.org/").then(function(url) {
                 assert.equal(url, "http://npmjs.org/");
                 done();
             });

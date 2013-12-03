@@ -1,9 +1,14 @@
 /* global describe: false, it: false, critic: false, assert: false, $: true */
 
 describe('Testing nodejs.org', function() {
+    describe('Dummy', function() {
+        it('True should be true', function() {
+            assert.equal(true, true);
+        });
+    });
     describe('Loading page', function() {
         it('Should load nodejs.org page', function(done) {
-            critic.loadPage("http://www.nodejs.org", function(url) {
+            critic.loadPage("http://www.nodejs.org").then(function(url) {
                 assert.equal(url, "http://www.nodejs.org");
                 done();
             });

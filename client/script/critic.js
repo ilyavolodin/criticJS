@@ -1,4 +1,4 @@
-/* global document: false, window: true, $: true, io: false, navigator: false, mocha: false */
+/* global document: false, window: true, $: true, io: false, navigator: false, mocha: false, Q: false */
 
 window.criticJs = function() {
     this.initialize = function(serverUrl) {
@@ -9,31 +9,14 @@ window.criticJs = function() {
         socket.on('testFiles', function(serverFiles) {
             files = JSON.parse(serverFiles);
             var runner = wireMocha(socket);
-            allTestRunner(files, runner);
-        });
-
-        var allTestRunner = function(files, runner) {
-            if (files.length === 0) {
-                return;
+            var allFiles = [];
+            for (var file in files) {
+                allFiles.push($.loadScript(files[file]));
             }
-            //this is not going to work, since second time this is going to run,
-            //it will run all tests from both first and second file.
-            //Need to either figure out how to remove old tests, or load all files first.
-            loadAndRunTests(files.pop(), runner).then(allTestRunner(files, runner));
-        };
-
-        var loadAndRunTests = function(filePath, runner) {
-            return $.Deferred(function(deferred) {
-                //I think this is the wrong event to listen to
-                //I think this fires after each test completion.
-                //end seems like the correct even. Mocha lacks
-                //documentation on the subject.
-                runner.removeListener('test end', deferred.resolve);
-                runner.on('test end', deferred.resolve);
-                $.loadScript(filePath).then(function() { runner.run();});
-                return deferred.promise();
+            Q.allSettled(allFiles).then(function() {
+                runner.run();
             });
-        };
+        });
     };
 
     var wireMocha = function(socket) {
@@ -42,6 +25,9 @@ window.criticJs = function() {
         mocha.globals(['jQuery']);
         var runner = mocha.run();
         runner.on('start', function() {
+            //runner.total doesn't return number of test for some reason.
+            //I think that's because tests are not loaded when runner is created
+            //Might need to count them by hand through Suites/Tests properties of runner
             socket.emit('start', runner.total);
         });
         runner.on('test', function(test) {
@@ -54,6 +40,9 @@ window.criticJs = function() {
             } else {
                 test.errors.push(formatError(error));
             }
+        });
+        runner.on('end', function() {
+            socket.emit('end', { failed: runner.failures });
         });
         runner.on('test end', function(test) {
             var skipped = test.pending === true;
@@ -96,7 +85,8 @@ window.criticJs = function() {
         return runner;
     };
 
-    this.loadPage = function(url, callback) {
+    this.loadPage = function(url) {
+        var deferred = Q.defer();
         var iframe = this.iframe,
             loaded = false;
         iframe.onload = iframe.onreadystatechange = function() {
@@ -105,11 +95,10 @@ window.criticJs = function() {
             }
             iframe.onload = iframe.onreadystatechange = null;
             loaded = true;
-            if (callback) {
-                callback.call(this, url);
-            }
+            deferred.resolve(iframe.contentWindow.location.href);
         };
         iframe.src = url;
+        return deferred.promise;
     };
 
     var me = this;

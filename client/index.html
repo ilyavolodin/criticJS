@@ -32,7 +32,8 @@
             $.loadScript(serverUrl + "/socket.io/socket.io.js"),
             $.loadScript(serverUrl + "/client/script/critic.js"),
             $.loadScript(serverUrl + "/mocha.js"),
-            $.loadScript(serverUrl + "/assert.js"))
+            $.loadScript(serverUrl + "/assert.js"),
+            $.loadScript(serverUrl + "/q.js"))
         .then(function() {
                 window.critic = criticJs(serverUrl);
                 window.assert = TDDAssert.assert;

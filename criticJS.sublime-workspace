@@ -189,14 +189,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/ilya/Documents/git/criticJS/lib/runner.js",
-		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
+		"/C/Users/ilya/Documents/git/criticJS/client/script/critic.js",
 		"/C/Users/ilya/Documents/git/criticJS/client/index.html",
+		"/C/Users/ilya/Documents/git/criticJS/lib/server.js",
+		"/C/Users/ilya/Documents/git/criticJS/lib/runner.js",
+		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
+		"/C/Users/ilya/Documents/git/criticJS/test/secondTest.js",
+		"/C/Users/ilya/Documents/git/criticJS/package.json",
 		"/C/Users/ilya/Documents/git/criticJS/lib/browser.js",
 		"/C/Users/ilya/Documents/git/criticJS/lib/cli.js",
 		"/C/Users/ilya/Documents/git/criticJS/criticJS.json",
-		"/C/Users/ilya/Documents/git/criticJS/client/script/critic.js",
-		"/C/Users/ilya/Documents/git/criticJS/test/test.js",
 		"/C/Users/ilya/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/ilya/Documents/git/eslint/Gruntfile.js",
 		"/C/Windows/System32/cnd.bat",
@@ -216,7 +218,6 @@
 		"/C/Users/ilya/Documents/git/criticJS/test/criticJS.json",
 		"/C/Users/ilya/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
 		"/C/Users/ilya/Documents/git/eslint/bin/eslint.js",
-		"/C/Users/ilya/Documents/git/criticJS/package.json",
 		"/C/Users/ilya/Documents/git/criticJS/.gitignore",
 		"/C/Users/ilya/Documents/git/criticJS/static/inject.js",
 		"/C/Users/ilya/Documents/git/criticJS/node_modules/http-proxy/lib/node-http-proxy.js",
@@ -315,8 +316,7 @@
 		"/C/Users/Ilya/Documents/git/eslint/docs/rules/no-script-url.md",
 		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-script-url.js",
 		"/C/Users/Ilya/Documents/git/eslint/tests/lib/rules/no-script-url.js",
-		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-wrap-func.js",
-		"/C/Users/Ilya/Documents/git/jshint/tests/unit/fixtures/scripturl.js"
+		"/C/Users/Ilya/Documents/git/eslint/lib/rules/no-wrap-func.js"
 	],
 	"find":
 	{
