@@ -27,15 +27,16 @@
             };
         }(jQuery));
         var serverUrl = qs["serverUrl"];
+        var id = qs["id"];
 
         $.when(
-            $.loadScript(serverUrl + "/socket.io/socket.io.js"),
-            $.loadScript(serverUrl + "/client/script/critic.js"),
-            $.loadScript(serverUrl + "/mocha.js"),
-            $.loadScript(serverUrl + "/assert.js"),
-            $.loadScript(serverUrl + "/q.js"))
+            $.loadScript(serverUrl + "/socket.io/socket.io.js?id=" + id),
+            $.loadScript(serverUrl + "/client/script/critic.js?id=" + id),
+            $.loadScript(serverUrl + "/mocha.js?id=" + id),
+            $.loadScript(serverUrl + "/assert.js?id=" + id),
+            $.loadScript(serverUrl + "/q.js?id=" + id))
         .then(function() {
-                window.critic = criticJs(serverUrl);
+                window.critic = criticJs(serverUrl, id);
                 window.assert = TDDAssert.assert;
         });
     });

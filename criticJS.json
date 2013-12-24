@@ -5,7 +5,8 @@
     "browser": {
         "registration": { "username" : "user", "password": "password" },
         "browsers": [
-            { "name": "chrome", "type": "local" }
+            { "name": "chrome", "type": "local" },
+            { "name": "ie", "type": "local"}
         ],
         "timeout": 40000,
         "siteLocation" : "http://localhost:8001/"

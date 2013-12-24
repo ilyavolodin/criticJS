@@ -1,11 +1,12 @@
 /* global document: false, window: true, $: true, io: false, navigator: false, mocha: false, Q: false */
 
-window.criticJs = function() {
-    this.initialize = function(serverUrl) {
+window.criticJs = function(serverUrl, browserId) {
+    this.initialize = function(serverUrl, browserId) {
         this.iframe = $("#testHarness")[0];
         var socket = io.connect(serverUrl);
+        this.browserId = browserId;
         var files = [];
-        socket.emit('browser-info', { browser: navigator.userAgent });
+        socket.emit('browser-info', { browser: navigator.userAgent, id: this.browserId });
         socket.on('testFiles', function(serverFiles) {
             files = JSON.parse(serverFiles);
             var runner = wireMocha(socket);
@@ -19,11 +20,12 @@ window.criticJs = function() {
         });
 
         $(window).on('beforeunload', function(){
-            socket.emit('disconnect', {});
+            socket.emit('disconnect', {id: this.browserId});
         });
     };
 
     var wireMocha = function(socket) {
+        var me = this;
         mocha.setup('bdd');
         mocha.checkLeaks();
         mocha.globals(['jQuery']);
@@ -32,7 +34,7 @@ window.criticJs = function() {
             //runner.total doesn't return number of test for some reason.
             //I think that's because tests are not loaded when runner is created
             //Might need to count them by hand through Suites/Tests properties of runner
-            socket.emit('start', runner.total);
+            socket.emit('start', {total: runner.total, id: me.browserId });
         });
         runner.on('test', function(test) {
             test.errors = [];
@@ -46,7 +48,7 @@ window.criticJs = function() {
             }
         });
         runner.on('end', function() {
-            socket.emit('end', { failed: runner.failures });
+            socket.emit('end', { failed: runner.failures, id: me.browserId });
         });
         runner.on('test end', function(test) {
             var skipped = test.pending === true;
@@ -66,7 +68,7 @@ window.criticJs = function() {
                 result.suite.unshift(pointer.title);
                 pointer = pointer.parent;
             }
-            socket.emit('test end', result);
+            socket.emit('test end', { results: result, id: me.browserId });
         });
 
         var formatError = function(error) {
@@ -108,7 +110,7 @@ window.criticJs = function() {
     var me = this;
 
     $(document).ready(function() {
-        me.initialize();
+        me.initialize(serverUrl, browserId);
     });
     return this;
 };
