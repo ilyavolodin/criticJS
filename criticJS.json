@@ -1,18 +1,19 @@
 {
-	"server": {
-		"port": 8001,
-		"timeout": 400000
-	},
-	"browser": {
-		"registration" : { "username" : "user", "password": "password" },
-		"browsers": [
-			{ "name": "chrome", "type": "local" }
-		],
-		"siteLocation" : "http://localhost:8001/"
-	},
-	"tests": {
-		"files": [
-			{ "pattern" : "test/*.js", "served": true }
-		]
-	}
+    "server": {
+        "port": 8001
+    },
+    "browser": {
+        "registration": { "username" : "user", "password": "password" },
+        "browsers": [
+            { "name": "chrome", "type": "local" }
+        ],
+        "timeout": 40000,
+        "siteLocation" : "http://localhost:8001/"
+    },
+    "tests": {
+        "files": [
+            { "pattern" : "test/*.js", "served": true }
+        ]
+    },
+    "formatter": "compact"
 }

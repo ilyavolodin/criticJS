@@ -1,2 +1,3 @@
 node_modules
-criticJS.sublime-workspace
+*.sublime-workspace
+*.suo

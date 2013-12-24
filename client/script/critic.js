@@ -17,6 +17,10 @@ window.criticJs = function() {
                 runner.run();
             });
         });
+
+        $(window).on('beforeunload', function(){
+            socket.emit('disconnect', {});
+        });
     };
 
     var wireMocha = function(socket) {
